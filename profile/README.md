@@ -18,8 +18,10 @@ OpenCRS is an open-source [cyber reasoning system](https://www.trailofbits.com/s
 
 ### Helpers
 
-- **[`commons`](https://github.com/CyberReasoningSystem/commons)**, with utility functions and classes, enums, and interfaces that are used in multiple CRS modules
+- **[`opencrs_dataset`](https://github.com/CyberReasoningSystem/opencrs_dataset)** for storing 54k vulnerable ELF executables
 - **[`nist_c_test_suite`](https://github.com/CyberReasoningSystem/nist_c_test_suite)** for storing NIST's "C Test Suite for Source Code Analyzer v2 - Vulnerable" dataset
+- **[`vagrant_infra`](https://github.com/CyberReasoningSystem/vagrant_infra)** for creating VMs with OpenCRS's modules
+- **[`commons`](https://github.com/CyberReasoningSystem/commons)**, with utility functions and classes, enums, and interfaces that are used in multiple CRS modules
 - **[`zeratool_lib`](https://github.com/CyberReasoningSystem/zeratool_lib)**, a fork of Zeratool for migrating the CLI tool into a Python 3 library for exploiting executables on the local machine
 
 ### Meta
