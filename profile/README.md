@@ -15,6 +15,7 @@ OpenCRS is an open-source [cyber reasoning system](https://www.trailofbits.com/s
 - **[`attack_surface_approximation`](https://github.com/CyberReasoningSystem/attack_surface_approximation)** for discovering the attack surface in an executable
 - **[`vulnerability_detection`](https://github.com/CyberReasoningSystem/vulnerability_detection)** for finding vulnerabilities in executables
 - **[`vulnerability_analytics`](https://github.com/CyberReasoningSystem/vulnerability_analytics)** for analyzing found vulnerabilities to extract more information (for example, the root cause)
+- **[`automatic_exploit_generation`](https://github.com/CyberReasoningSystem/automatic_exploit_generation)** for automatically generating exploits
 
 ### Helpers
 
