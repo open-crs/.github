@@ -90,7 +90,7 @@ Namely:
    sudo usermod -aG docker $USER
    ```
 
-1. Log in to the new group, by doing one of the two steps.
+1. Log in to the new group, by doing one of the two steps:
 
    1. Log out of your session and log in again.
       This is the best option since it will then create future sessions with required privileges.
