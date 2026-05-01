@@ -48,7 +48,7 @@ The following packages are required:
 On Ubuntu/Debian or other `apt`-based distributions, use, as `root`, the following command to install the requirements:
 
 ```console
-apt install -y --no-install-recommends \
+sudo apt install -y --no-install-recommends \
   build-essential \
   sudo \
   git \
