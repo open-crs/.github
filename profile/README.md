@@ -170,7 +170,7 @@ sudo apt install libssl-dev libreadline-dev libbz2-dev libsqlite3-dev
 To install a new Python version, use:
 
 ```console
-python install <version_id>
+pyenv install <version_id>
 ```
 
 where `<version_id>` is the version you want to install (e.g. `3.8`, `3.10`, `3.11` etc.)
