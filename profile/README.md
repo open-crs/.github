@@ -164,7 +164,7 @@ Before installing a new Python version (it is typically build from source) insta
 On a Debian / Ubuntu system, this means running:
 
 ```console
-sudo apt install libssl-dev libreadline-dev libbz2-dev libsqlite3-dev
+sudo apt install libssl-dev libreadline-dev libbz2-dev libsqlite3-dev liblzma-dev tk-dev
 ```
 
 To install a new Python version, use:
