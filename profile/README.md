@@ -184,7 +184,7 @@ pyenv global <version_id>
 #### Create a Python Virtual Environment
 
 A [Python virtual environment](https://docs.python.org/3/library/venv.html) allows to have an isolated build and run environment for the Python applications.
-You should create a separate virtual environment in each module.
+You should create **a separate virtual environment in each module**.
 That is, in each module directory, run:
 
 ```console
@@ -212,7 +212,7 @@ source .venv/bin/activate
 Poetry is a Python package manager that we use for all modules.
 It is used to manage package dependencies and install required packages.
 
-With the virtual environment activated, install [Poetry](https://python-poetry.org/):
+With the virtual environment activated in each module, install [Poetry](https://python-poetry.org/):
 
 ```console
 pip install poetry
