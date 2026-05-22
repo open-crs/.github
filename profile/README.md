@@ -48,7 +48,7 @@ The following packages are required:
 On Ubuntu/Debian or other `apt`-based distributions, use, as `root`, the following command to install the requirements:
 
 ```console
-apt install -y --no-install-recommends \
+sudo apt install -y --no-install-recommends \
   build-essential \
   sudo \
   git \
@@ -90,7 +90,7 @@ Namely:
    sudo usermod -aG docker $USER
    ```
 
-1. Log in to the new group, by doing one of the two steps.
+1. Log in to the new group, by doing one of the two steps:
 
    1. Log out of your session and log in again.
       This is the best option since it will then create future sessions with required privileges.
@@ -164,13 +164,13 @@ Before installing a new Python version (it is typically build from source) insta
 On a Debian / Ubuntu system, this means running:
 
 ```console
-sudo apt install libssl-dev libreadline-dev libbz2-dev lisqlite3-dev
+sudo apt install libssl-dev libreadline-dev libbz2-dev libsqlite3-dev liblzma-dev tk-dev
 ```
 
 To install a new Python version, use:
 
 ```console
-python install <version_id>
+pyenv install <version_id>
 ```
 
 where `<version_id>` is the version you want to install (e.g. `3.8`, `3.10`, `3.11` etc.)
@@ -184,7 +184,7 @@ pyenv global <version_id>
 #### Create a Python Virtual Environment
 
 A [Python virtual environment](https://docs.python.org/3/library/venv.html) allows to have an isolated build and run environment for the Python applications.
-You should create a separate virtual environment in each module.
+You should create **a separate virtual environment in each module**.
 That is, in each module directory, run:
 
 ```console
@@ -212,7 +212,7 @@ source .venv/bin/activate
 Poetry is a Python package manager that we use for all modules.
 It is used to manage package dependencies and install required packages.
 
-With the virtual environment activated, install [Poetry](https://python-poetry.org/):
+With the virtual environment activated in each module, install [Poetry](https://python-poetry.org/):
 
 ```console
 pip install poetry
